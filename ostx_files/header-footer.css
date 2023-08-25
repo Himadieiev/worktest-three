@@ -1,0 +1,200 @@
+.header__wrapper {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header__logo {
+  display: inline-block;
+  margin-right: 20px;
+  width: 100px;
+  height: 61px;
+}
+
+.header__logo-img {
+  float: left;
+  background: url(https://media.dcnews.ro/assets_v2/images/dcnews_512px_v2.png)
+    no-repeat;
+  background-size: contain;
+  width: 105px;
+  height: 95px;
+  margin-top: 8px;
+}
+
+@media (max-width: 790px) {
+  .header__logo-img {
+    width: 50px;
+    height: 45px;
+  }
+
+  .header__logo {
+    width: 50px;
+    height: 45px;
+  }
+}
+
+.header__nav {
+  padding-top: 20px;
+  margin-right: 20px;
+}
+
+.header__nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 917px;
+  gap: 20px;
+  margin: 0;
+}
+
+.header__nav-item {
+  color: #222;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.header__nav-link {
+  color: inherit;
+}
+
+.header__icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 183px;
+}
+
+.header__icon-wrapper {
+  padding: 20px;
+}
+
+.play-wrapper {
+  padding-top: 15px;
+}
+
+.play {
+  color: #bf0203;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.search {
+  width: 18px;
+  height: 18px;
+}
+
+.share {
+  width: 18px;
+  height: 18px;
+}
+
+.header__subheader-wrapper {
+  background: #301e6d;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+  min-height: 28px;
+  max-width: 100%;
+}
+
+.header__subheader {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+}
+
+.arrow {
+  margin-left: 10px;
+}
+
+.header__article-link {
+  font-size: 15px;
+  color: inherit;
+}
+
+.footer__menu {
+  width: 100%;
+  background-color: #4e3b97;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer__memu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.footer__memu-item {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer__btn {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer__content {
+  background: #333;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  font-size: 13px;
+  padding-top: 40px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer__copyright {
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__icon-size {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer__icon-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 28px;
+  height: 27px;
+  color: inherit;
+}
+
+.footer__icon {
+  width: 90px;
+}
+
+.footer__developer-link {
+  width: 220px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.footer__text {
+  font-size: 9px;
+  margin-bottom: 5px;
+}
